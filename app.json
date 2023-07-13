@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Chat-App-Realtime",
+    "slug": "Chat-App-Realtime",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.viet2411.ChatAppRealtime"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "apiKey": "AIzaSyCkJKKqjeJxNZSZUAwpZ2gzA0WXj3i1yx8",
+      "authDomain": "chat-app-realtime-ac46d.firebaseapp.com",
+      "projectId": "chat-app-realtime-ac46d",
+      "storageBucket": "chat-app-realtime-ac46d.appspot.com",
+      "messagingSenderId": "200043487405",
+      "appId": "1:200043487405:web:718cca6515b61062716624",
+      "measurementId": "G-2BB5W2SQ8E",
+      "eas": {
+        "projectId": "e579f0bc-63db-43e6-849d-839f8a01a801"
+      }
+    }
+  }
+}
