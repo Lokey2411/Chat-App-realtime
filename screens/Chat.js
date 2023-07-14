@@ -54,7 +54,7 @@ const Chat = () => {
 			);
 			// console.log(messages);
 
-			const { _id, createAt, text, user } = messages[0];
+			const { _id, text, user } = messages[0];
 			await addDoc(colectionRef, {
 				_id,
 				createAt: Date.now(),
